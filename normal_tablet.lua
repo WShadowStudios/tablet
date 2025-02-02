@@ -13,7 +13,7 @@ if _G.OnShop then
     })
 end
 
-local Scanner = game:GetObjects("rbxassetid://12594482248")[1]
+local Scanner = LoadCustomInstance("https://raw.githubusercontent.com/WShadowStudios/tablet/main/original_tablet.rbxm")
 Scanner.Parent = game.Players.LocalPlayer.Backpack
 local Storage = Scanner:WaitForChild("Storage")
 local l__ScreenUI__1 = Storage.ScreenUI;
